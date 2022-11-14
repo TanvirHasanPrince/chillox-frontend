@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './About/About';
 import Banner from './Banner/Banner';
+import HomeMenu from './HomeMenu';
 import Usps from './Usp/Usps';
 
 
@@ -15,6 +16,7 @@ const Home = () => {
    <Banner></Banner>
     <Usps></Usps>
     <About></About>
+    <HomeMenu></HomeMenu>
   </div>
  );
 };

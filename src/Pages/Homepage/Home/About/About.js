@@ -5,14 +5,15 @@ import aboutus from "../../../../assets/Images/about-us.jpg";
 const About = () => {
   return (
     <div>
-      <div className="hero bg-base-200">
+      <div className="hero bg-base-200 py-10 mb-10 rounded-xl mt-10">
         <div className="hero-content flex-col lg:flex-row">
           <img src={aboutus} className="w-1/2 rounded-lg shadow-2xl" alt="" />
-          <div>
+          <div className="mx-5">
             <h1 className="text-3xl font-bold text-red-600">About Us</h1>
             <p className="py-6">
               We prepare juicy burgers and side dishes from the best ingredients
               and mix traditional recipes with new approaches.
+              <br></br>
               <br></br>
               While cooking our burgers, we use only certified beef, which means
               that it is nourishing and soft by nature, has minimum calories and

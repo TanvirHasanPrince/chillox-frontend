@@ -9,7 +9,14 @@ const Navbar = () => {
   const menuItems = (
     <React.Fragment>
       <li>
-    
+        <Link
+          to="/"
+          className="hover:text-red-500 font-bold hover:border-2 hover:border-red-600 rounded"
+        >
+          Home
+        </Link>
+      </li>
+      <li>
         <Link
           to="/aboutus"
           className="hover:text-red-500 font-bold hover:border-2 hover:border-red-600 rounded"
