@@ -9,7 +9,7 @@ const About = () => {
         <div className="hero-content flex-col lg:flex-row">
           <img src={aboutus} className="w-1/2 rounded-lg shadow-2xl" alt="" />
           <div className="mx-5">
-            <h1 className="text-3xl font-bold text-red-600">About Us</h1>
+            <h1 className="text-3xl font-bold text-secondary">About Us</h1>
             <p className="py-6">
               We prepare juicy burgers and side dishes from the best ingredients
               and mix traditional recipes with new approaches.

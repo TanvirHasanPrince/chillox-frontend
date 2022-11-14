@@ -11,42 +11,36 @@ const Navbar = () => {
       <li>
         <Link
           to="/"
-          className="hover:text-red-500 font-bold hover:border-2 hover:border-red-600 rounded"
+          className="hover:text-secondary font-bold hover:border-2 hover:border-red-600 rounded"
         >
           Home
         </Link>
       </li>
-      <li>
-        <Link
-          to="/aboutus"
-          className="hover:text-red-500 font-bold hover:border-2 hover:border-red-600 rounded"
-        >
-          About Us
-        </Link>
-      </li>
+
       <li>
         {" "}
         <Link
           to="/menu"
-          className="hover:text-red-500 font-bold hover:border-2 hover:border-red-600  rounded"
+          className="hover:text-secondary font-bold hover:border-2 hover:border-red-600  rounded"
         >
           Menu
         </Link>{" "}
       </li>
+
       <li>
-        {" "}
         <Link
-          to="/catering"
-          className="hover:text-red-500 font-bold hover:border-2 hover:border-red-600 rounded"
+          to="/aboutus"
+          className="hover:text-secondary font-bold hover:border-2 hover:border-red-600 rounded"
         >
-          Catering
-        </Link>{" "}
+          About Us
+        </Link>
       </li>
+
       <li>
         {" "}
         <Link
           to="/contact"
-          className="hover:text-red-500 font-bold hover:border-2 hover:border-red-600 rounded"
+          className="hover:text-secondary font-bold hover:border-2 hover:border-red-600 rounded"
         >
           Contact
         </Link>
@@ -92,7 +86,7 @@ const Navbar = () => {
           <FaFacebookF className="hover:scale-110  mx-1 text-3xl  bg-red-600 rounded-full py-1 "></FaFacebookF>
           <FaInstagram className=" hover:scale-110 mx-1 text-3xl  bg-red-600 rounded-full py-1"></FaInstagram>
           <FaYoutube className=" hover:scale-110 mx-1 text-3xl  bg-red-600 rounded-full py-1"></FaYoutube>
-          <Lottie className="w-24" animationData={burger} loop={true} />;
+          <Lottie className="w-24" animationData={burger} loop={true} />
         </div>
       </div>
     </div>

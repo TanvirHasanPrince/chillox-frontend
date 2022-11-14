@@ -10,7 +10,7 @@ const Usp = ({ usp }) => {
           <Lottie className="w-1/2" animationData={animation} loop={true} />;
         </figure>
         <div className="card-body  items-center text-center">
-          <h2 className="font-bold text-red-600">{title}</h2>
+          <h2 className="font-bold text-secondary">{title}</h2>
           <p>{description}</p>
         </div>
       </div>
