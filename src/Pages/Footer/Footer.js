@@ -5,12 +5,12 @@ import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 const Footer = () => {
  return (
    <div>
-     <footer className="footer p-10 bg-neutral text-neutral-content">
+     <footer className="footer p-10 bg-base-200 text-neutral-content">
        <div>
          <img src={logo} alt="" className="w-24" />
          <p>
-           🍔Serving the juiciest burgers in town! <br/>📍Delivering in Dhaka,
-           Chittagong & Mymensingh!
+           🍔Serving the juiciest burgers in town! <br />
+           📍Delivering in Dhaka, Chittagong & Mymensingh!
          </p>
        </div>
        <div>
@@ -22,6 +22,11 @@ const Footer = () => {
          </div>
        </div>
      </footer>
+
+     <p className="text-center text-secondary py-5">
+       Designed and Developed by Tanvir Hasan Prince. This is done for
+       educational purpose and is not affiliated with acutal Chillox brand.
+     </p>
    </div>
  );
 };

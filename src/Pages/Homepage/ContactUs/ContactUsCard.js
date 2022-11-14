@@ -1,10 +1,12 @@
-import React from 'react';
+
+
 import Lottie from "lottie-react";
+import React from "react";
 
-const Usp = ({ usp }) => {
- const {title, description, animation} = usp;
+const ContactUsCard = ({ contactItem }) => {
+  const { title, description, animation } = contactItem;
 
- console.log(title, description, animation);
+console.log(title, description, animation);
 
   return (
     <div>
@@ -21,4 +23,4 @@ const Usp = ({ usp }) => {
   );
 };
 
-export default Usp;
+export default ContactUsCard;

@@ -39,10 +39,10 @@ const Navbar = () => {
       <li>
         {" "}
         <Link
-          to="/contact"
+          to="/locations"
           className="hover:text-secondary font-bold hover:border-2 hover:border-red-600 rounded"
         >
-          Contact
+          Locations
         </Link>
       </li>
     </React.Fragment>
