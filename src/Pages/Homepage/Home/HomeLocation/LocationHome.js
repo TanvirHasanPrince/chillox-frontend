@@ -8,7 +8,7 @@ const LocationHome = () => {
   return (
     <div className="mt-10 py-10">
       <h1 className="text-center text-4xl text-secondary font-bold hover:scale-110 hover:text-red-600">
-        Our Location
+        📍Delivering in Dhaka, Chittagong & Mymensingh!
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 md:grid-cols-2 py-10">
         <div className="card bg-base-100 shadow-xl w-96 hover:border-2 hover:border-red-600 ">
