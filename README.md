@@ -17,7 +17,7 @@ Once on the website, you can explore the menu and prices by clicking the 'Menu' 
 ## Technologies Used
 The Chillox Restaurant Website was built with a variety of technologies, including:
 
--HTML
+- HTML
 - CSS
 - JavaScript
 - React
