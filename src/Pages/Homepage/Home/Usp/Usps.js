@@ -1,5 +1,4 @@
 import React from "react";
-import Lottie from "lottie-react";
 import like from "../../../../assets/Lottie/USP/like-animation-thumbs-up.json";
 import burgerTopdown from "../../../../assets/Lottie/USP/burger-of-the-day.json";
 import chefmakingburger from "../../../../assets/Lottie/USP/chef-making-a-burger.json";

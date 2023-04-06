@@ -1,5 +1,4 @@
 import React from 'react';
-import Lottie from "lottie-react";
 import email from "../../../assets/Lottie/Contact Us/email-sent.json";
 import call from  '../../../assets/Lottie/Contact Us/call.json'
 import location from '../../../assets/Lottie/Contact Us/location-animation.json';
