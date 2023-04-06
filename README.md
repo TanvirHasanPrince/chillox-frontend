@@ -10,7 +10,7 @@ Welcome to the Chillox Restaurant Website! This is a burger restaurant located a
 - Built with HTML, CSS, JavaScript, and React
 
 ## How to Use
-You can access the website by visiting the following link: www.chillox.web.app
+You can access the website by visiting the following link: [www.chillox.web.app](https://chillox.web.app/)
 
 Once on the website, you can explore the menu and prices by clicking the 'Menu' tab. You can also check out the various locations of the restaurant by clicking on the 'Locations' tab. The website also includes interactive animations using Lottie Animation to make the user experience more enjoyable.
 
