@@ -28,4 +28,4 @@ The Chillox Restaurant Website was built with a variety of technologies, includi
 ## Contributing
 If you would like to contribute to the development of the Chillox Restaurant Website, please feel free to fork the repository and submit a pull request.
 
-### Thank you for visiting the Chillox Restaurant Website! We hope to see you soon at one of our locations.
+### Thank you for visiting the Chillox Restaurant Website! 
