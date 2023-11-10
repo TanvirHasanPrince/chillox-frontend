@@ -5,9 +5,6 @@ import "react-photo-view/dist/react-photo-view.css";
 const MenuItem = ({ food }) => {
   const { title, description, image, price } = food;
 
-  const handlePriceButton = () => {
-    alert("Eto tipen ken? Backend er kaj baki...Faul");
-  };
   return (
     <div>
       <div className="card w-96 bg-base-100 shadow-xl hover:border-2 hover:border-red-600 h-6/6">
@@ -20,7 +17,7 @@ const MenuItem = ({ food }) => {
           <h2 className="card-title text-secondary"> {title}</h2>
           <p>{description}</p>
           <div className="card-actions">
-            <p className="btn btn-primary" onClick={handlePriceButton}>
+            <p className=" mt-3 btn btn-primary">
               BDT. {price}
             </p>
           </div>
